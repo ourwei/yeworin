@@ -29,7 +29,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Discounted prems & discord nitro"];
+const statusMessages = [".gg/yeorin"];
 
 
 let currentIndex = 0;
@@ -59,7 +59,7 @@ function updateStatusAndSendMessages() {
 
   client.user.setPresence({
     activities: [{ name: currentStatus, type: ActivityType.Custom}],
-    status: 'dnd',
+    status: 'Streaming',
   });
 
   
